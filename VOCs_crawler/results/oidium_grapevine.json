@@ -1,0 +1,251 @@
+{
+  "query": {
+    "plant": "grapevine",
+    "illness": "oidium",
+    "extra_terms": "Vitis vinifera OR powdery mildew OR Erysiphe necator",
+    "raw_query": "(\"grapevine\") AND (\"oidium\") AND (\"volatile organic compound\" OR VOC OR volatilome OR \"headspace\") AND (\"GC-MS\" OR SPME OR biomarker OR diagnosis OR characterization) AND (Vitis vinifera OR powdery mildew OR Erysiphe necator)",
+    "source": "Bundled demo dataset",
+    "searched_at_utc": "2026-04-09T07:48:05.176139+00:00",
+    "papers_retrieved": 3
+  },
+  "vocs": [
+    {
+      "name": "1-octen-3-ol",
+      "mentions": 2,
+      "papers_count": 2,
+      "paper_ids": [
+        "demo-1",
+        "demo-3"
+      ],
+      "properties": {
+        "family": "alcohol",
+        "biosensor_relevance": "fungal-associated marker"
+      },
+      "evidence": [
+        {
+          "paper_id": "demo-1",
+          "sentence": "Headspace SPME-GC-MS identified 1-octen-3-ol, methyl salicylate, hexanal and nonanal as discriminant biomarkers in infected Vitis vinifera leaves."
+        },
+        {
+          "paper_id": "demo-3",
+          "sentence": "Infection profiling by headspace GC-MS identified linalool, ocimene, alpha-pinene and 1-octen-3-ol as relevant to pathogen challenge."
+        }
+      ]
+    },
+    {
+      "name": "methyl salicylate",
+      "mentions": 2,
+      "papers_count": 2,
+      "paper_ids": [
+        "demo-1",
+        "demo-2"
+      ],
+      "properties": {
+        "family": "benzenoid ester",
+        "biosensor_relevance": "systemic acquired resistance signal"
+      },
+      "evidence": [
+        {
+          "paper_id": "demo-1",
+          "sentence": "Headspace SPME-GC-MS identified 1-octen-3-ol, methyl salicylate, hexanal and nonanal as discriminant biomarkers in infected Vitis vinifera leaves."
+        },
+        {
+          "paper_id": "demo-2",
+          "sentence": "Methyl salicylate increased in disease progression and was proposed as a marker."
+        }
+      ]
+    },
+    {
+      "name": "hexanal",
+      "mentions": 1,
+      "papers_count": 1,
+      "paper_ids": [
+        "demo-1"
+      ],
+      "properties": {
+        "family": "aldehyde",
+        "biosensor_relevance": "lipid oxidation / GLV marker"
+      },
+      "evidence": [
+        {
+          "paper_id": "demo-1",
+          "sentence": "Headspace SPME-GC-MS identified 1-octen-3-ol, methyl salicylate, hexanal and nonanal as discriminant biomarkers in infected Vitis vinifera leaves."
+        }
+      ]
+    },
+    {
+      "name": "nonanal",
+      "mentions": 1,
+      "papers_count": 1,
+      "paper_ids": [
+        "demo-1"
+      ],
+      "properties": {
+        "family": "aldehyde",
+        "biosensor_relevance": "lipid peroxidation marker"
+      },
+      "evidence": [
+        {
+          "paper_id": "demo-1",
+          "sentence": "Headspace SPME-GC-MS identified 1-octen-3-ol, methyl salicylate, hexanal and nonanal as discriminant biomarkers in infected Vitis vinifera leaves."
+        }
+      ]
+    },
+    {
+      "name": "2-hexanone",
+      "mentions": 1,
+      "papers_count": 1,
+      "paper_ids": [
+        "demo-2"
+      ],
+      "properties": {
+        "family": "ketone",
+        "biosensor_relevance": "stress-induced volatile"
+      },
+      "evidence": [
+        {
+          "paper_id": "demo-2",
+          "sentence": "GC-MS analysis quantified 2-heptanone, 2-hexanone and benzaldehyde."
+        }
+      ]
+    },
+    {
+      "name": "2-heptanone",
+      "mentions": 1,
+      "papers_count": 1,
+      "paper_ids": [
+        "demo-2"
+      ],
+      "properties": {
+        "family": "ketone",
+        "biosensor_relevance": "infection-related signal in crops"
+      },
+      "evidence": [
+        {
+          "paper_id": "demo-2",
+          "sentence": "GC-MS analysis quantified 2-heptanone, 2-hexanone and benzaldehyde."
+        }
+      ]
+    },
+    {
+      "name": "benzaldehyde",
+      "mentions": 1,
+      "papers_count": 1,
+      "paper_ids": [
+        "demo-2"
+      ],
+      "properties": {
+        "family": "aldehyde",
+        "biosensor_relevance": "aromatic stress marker"
+      },
+      "evidence": [
+        {
+          "paper_id": "demo-2",
+          "sentence": "GC-MS analysis quantified 2-heptanone, 2-hexanone and benzaldehyde."
+        }
+      ]
+    },
+    {
+      "name": "alpha-pinene",
+      "mentions": 1,
+      "papers_count": 1,
+      "paper_ids": [
+        "demo-3"
+      ],
+      "properties": {
+        "family": "terpene",
+        "biosensor_relevance": "plant defense terpene"
+      },
+      "evidence": [
+        {
+          "paper_id": "demo-3",
+          "sentence": "Infection profiling by headspace GC-MS identified linalool, ocimene, alpha-pinene and 1-octen-3-ol as relevant to pathogen challenge."
+        }
+      ]
+    },
+    {
+      "name": "linalool",
+      "mentions": 1,
+      "papers_count": 1,
+      "paper_ids": [
+        "demo-3"
+      ],
+      "properties": {
+        "family": "monoterpene alcohol",
+        "biosensor_relevance": "defense signaling volatile"
+      },
+      "evidence": [
+        {
+          "paper_id": "demo-3",
+          "sentence": "Infection profiling by headspace GC-MS identified linalool, ocimene, alpha-pinene and 1-octen-3-ol as relevant to pathogen challenge."
+        }
+      ]
+    },
+    {
+      "name": "ocimene",
+      "mentions": 1,
+      "papers_count": 1,
+      "paper_ids": [
+        "demo-3"
+      ],
+      "properties": {
+        "family": "monoterpene",
+        "biosensor_relevance": "induced defense volatile"
+      },
+      "evidence": [
+        {
+          "paper_id": "demo-3",
+          "sentence": "Infection profiling by headspace GC-MS identified linalool, ocimene, alpha-pinene and 1-octen-3-ol as relevant to pathogen challenge."
+        }
+      ]
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "demo-1",
+      "title": "Volatilome signatures in grapevine leaves infected with powdery mildew (Erysiphe necator)",
+      "year": "2022",
+      "source": "Demo Plant Pathology",
+      "doi": "10.0000/demo.oidium.1",
+      "url": "https://example.org/demo-oidium-1",
+      "authors": "A. Example et al.",
+      "matched_vocs": [
+        "1-octen-3-ol",
+        "hexanal",
+        "methyl salicylate",
+        "nonanal"
+      ]
+    },
+    {
+      "paper_id": "demo-2",
+      "title": "Early diagnosis of grapevine oidium using VOC fingerprints",
+      "year": "2021",
+      "source": "Demo Sensors in Agriculture",
+      "doi": "10.0000/demo.oidium.2",
+      "url": "https://example.org/demo-oidium-2",
+      "authors": "B. Example et al.",
+      "matched_vocs": [
+        "2-heptanone",
+        "2-hexanone",
+        "benzaldehyde",
+        "methyl salicylate"
+      ]
+    },
+    {
+      "paper_id": "demo-3",
+      "title": "Volatile biomarkers for fungal infection in Vitis vinifera",
+      "year": "2020",
+      "source": "Demo Journal of Plant Defense",
+      "doi": "10.0000/demo.oidium.3",
+      "url": "https://example.org/demo-oidium-3",
+      "authors": "C. Example et al.",
+      "matched_vocs": [
+        "1-octen-3-ol",
+        "alpha-pinene",
+        "linalool",
+        "ocimene"
+      ]
+    }
+  ],
+  "next_step": "Use the VOC names as input candidates for OBPs_search to rank OBPs."
+}
