@@ -1,0 +1,11 @@
+voc,mentions,papers_count,family,biosensor_relevance,example_paper_ids
+1-octen-3-ol,2,2,alcohol,fungal-associated marker,"demo-1,demo-3"
+methyl salicylate,2,2,benzenoid ester,systemic acquired resistance signal,"demo-1,demo-2"
+hexanal,1,1,aldehyde,lipid oxidation / GLV marker,demo-1
+nonanal,1,1,aldehyde,lipid peroxidation marker,demo-1
+2-hexanone,1,1,ketone,stress-induced volatile,demo-2
+2-heptanone,1,1,ketone,infection-related signal in crops,demo-2
+benzaldehyde,1,1,aldehyde,aromatic stress marker,demo-2
+alpha-pinene,1,1,terpene,plant defense terpene,demo-3
+linalool,1,1,monoterpene alcohol,defense signaling volatile,demo-3
+ocimene,1,1,monoterpene,induced defense volatile,demo-3
